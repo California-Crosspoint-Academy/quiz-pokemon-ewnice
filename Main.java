@@ -1,16 +1,16 @@
 public class Main {
     public static void main(String[] args) {
 
-        Pokemon p1 = new Pokemon("Gengar",100,2037,"Phantom Force", "Shadow Claw", "Shadow Ball", "Lick");
+        Pokemon p1 = new Pokemon("Gyrados",100,2037,"Hydro Pump", "Hyper Beam", "Surf", "Dragon Rage");
         System.out.println(p1.name + " Level:" + p1.level + "\n1. " + p1.a1 + "\n2. " + p1.a2 + "\n3. " + p1.a3 + "\n4. " + p1.a4);
 
 
-        Pokemon p2 = new Pokemon("Gardevoir",97,2667, "Future Sight", "Moonblast", "Mystical Fire", "Psychic");
+        Pokemon p2 = new Pokemon("Magmar",97,2667, "Fire Blast", "Flamethrower", "Lava Plume", "Fire Punch");
         System.out.println(p2.name + " Level:" + p2.level + "\n1. " + p2.a1 + "\n2. " + p2.a2 + "\n3. " + p2.a3 + "\n4. " + p2.a4);
 
 
 
-        Pokemon p3 = new Pokemon("Excadrill",86,2753,"Megahorn", "Earthquake", "Drill Run", "Dig");
+        Pokemon p3 = new Pokemon("Lickitung",86,2753,"Giga Impact", "Double-Edge", "Zen Headbutt", "Bulldoze");
         System.out.println(p3.name + " Level:" + p3.level + "\n1. " + p3.a1 + "\n2. " + p3.a2 + "\n3. " + p3.a3 + "\n4. " + p3.a4);
   
 
