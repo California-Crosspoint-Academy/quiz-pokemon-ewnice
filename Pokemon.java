@@ -22,17 +22,13 @@ public class Pokemon {
         this.a4 = a4;
     }
 
-    void a1(){
-        System.out.println(name + ", attack with " + a1 + "!");
-    }
-    void a2(){
-        System.out.println(name + ", attack with " + a2 + "!");
-    }
-    void a3(){
-        System.out.println(name + ", attack with " + a3 + "!");
-    }
-    void a4(){
-        System.out.println(name + ", attack with " + a4 + "!");
+    void print(){
+        System.out.println(name + " Level " + level);
+        System.out.println("1. " + a1);
+        System.out.println("2. " + a2);
+        System.out.println("3. " + a3);
+        System.out.println("4. " + a4);
+        System.out.println();
     }
     
 }
